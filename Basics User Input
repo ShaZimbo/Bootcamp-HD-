@@ -9,4 +9,4 @@ user_stnm=input("Please provide the name of your street: ")
 # Print all variables
 print(f"This is {user_name}. "
       f"They are {user_age} years old "
-      f"and lives at {user_hsenum} {user_stnm}.")
+      f"and live at {user_hsenum} {user_stnm}.")

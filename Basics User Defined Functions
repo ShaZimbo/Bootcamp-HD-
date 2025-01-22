@@ -7,9 +7,11 @@ def city_options():
     print("p = Paris")
     print("e = Exit")
 
+
 def plane_cost(destination):
     plane_price = {"z":750, "c":325, "m":100, "p":250}
     return plane_price.get(destination, "Destination not found.")
+
 
 # Functions for total holiday, including flight, hotel, and car costs
 def city_destination(city):
@@ -20,17 +22,21 @@ def city_destination(city):
         "p":"Paris"}
     return destination.get(city,"Unknown destination")
 
+
 def hotel_cost(nights):
     hotel_price = nights * 550
     return hotel_price
+
 
 def car_rental(days):
     car_price = days * 125
     return car_price
 
+
 def holiday_cost(f, h, c):
     holiday_price = f + h + c
     return holiday_price
+
 
 # Calculate costs based on user selection
 print("This programme will calculate the cost of your holiday:")
